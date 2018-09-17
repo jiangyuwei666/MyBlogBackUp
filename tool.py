@@ -135,7 +135,7 @@ def handle_photo():
 
     list_info = SortDict(list_info)
     final_dict = {"list": list_info}
-    with open("./source/photos/data.json", "w") as fp:
+    with open(r"E:\Hexo\source\photos\data.json", "w") as fp:
         json.dump(final_dict, fp)
 
 
